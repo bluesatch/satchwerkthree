@@ -59,6 +59,7 @@ export default function Experience()
                     maxWidth={ 2 }
                     children="SATCH\nWERK"
                     textAlign="center"
+                    color="black"
                 >
                 Satchwerk
                 </Text>
