@@ -56,8 +56,8 @@ export default function Experience()
                     fontSize={ 1 }
                     position={ [ 2, 0.75, 0.75 ] }
                     rotation-y={ -1.25}
-                    maxWidth={ visualViewport.width / 4 }
-                    children="SATCH\nWERK"
+                    maxWidth={ visualViewport.width / 8 }
+                    children="satchwerk"
                     textAlign="center"
                     color="black"
                 >
