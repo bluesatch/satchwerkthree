@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/*'
 import './style.css'
 import ReactDOM from 'react-dom/client'
 import { Canvas } from '@react-three/fiber'
@@ -16,5 +17,6 @@ root.render(
         } }
     >
         <Experience />
+        <Analytics />
     </Canvas>
 )
