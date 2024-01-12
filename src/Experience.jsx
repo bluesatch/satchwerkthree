@@ -56,7 +56,7 @@ export default function Experience()
                     fontSize={ 1 }
                     scale={0.70}
                     position={ [ 1.5, 0.75, 0.75 ] }
-                             rotation-y={ -1.25}
+                    rotation-y={ -1.25}
                     maxWidth={ visualViewport.width / 8 }
                     children="satchwerk"
                     textAlign="center"
