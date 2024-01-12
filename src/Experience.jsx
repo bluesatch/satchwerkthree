@@ -50,12 +50,13 @@ export default function Experience()
                     <iframe src="https://bluesatch.github.io/githubio/" />
                 </Html>
                 </primitive>
-                <primitive object={turntable.scene} position={ [ 2.5, -0.25, 0.75 ] } />
+                <primitive object={turntable.scene} position={ [ 1.5, -0.20, 0.75 ] } />
                 <Text
                     font='./bangers-v20-latin-regular.woff'
                     fontSize={ 1 }
-                    position={ [ 2, 0.75, 0.75 ] }
-                    rotation-y={ -1.25}
+                    scale={0.70}
+                    position={ [ 1.5, 0.75, 0.75 ] }
+                             rotation-y={ -1.25}
                     maxWidth={ visualViewport.width / 8 }
                     children="satchwerk"
                     textAlign="center"
@@ -63,6 +64,20 @@ export default function Experience()
                 >
                 Satchwerk
                 </Text>
+                <Text
+                    font='./bangers-v20-latin-regular.woff'
+                    fontSize={ 1 }
+                    scale={ 0.10}
+                    position={ [ 1.5, 0.25, 0.75 ] }
+                    rotation-y={ -1.25}
+                    maxWidth={ visualViewport.width / 8 }
+                    children="satchwerk"
+                    textAlign="center"
+                    color="black"
+                >
+                (click the laptop screen)
+                </Text>
+                
             </Float>
         </PresentationControls>
 
