@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/*'
+import { Analytics } from '@vercel/analytics/react'
 import './style.css'
 import ReactDOM from 'react-dom/client'
 import { Canvas } from '@react-three/fiber'
